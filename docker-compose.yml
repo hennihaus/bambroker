@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  activemq:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8161:8161"
+      - "61616:61616"
