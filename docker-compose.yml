@@ -5,8 +5,8 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
-      - ACTIVE_MQ_USERNAME=""
-      - ACTIVE_MQ_PASSWORD=""
+      - ACTIVE_MQ_USERNAME=test
+      - ACTIVE_MQ_PASSWORD=test
     ports:
       - "8161:8161"
       - "61616:61616"
